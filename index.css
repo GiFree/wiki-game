@@ -1,0 +1,55 @@
+body {
+    background-color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+a {
+    color: #E8DDB5;
+}
+
+
+
+button {
+    background-color: #E8DDB5;
+    border: none;
+    color: #666A86;
+    padding: 7px 20px 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid #2F4858;
+}
+
+button:hover {
+    background-color: #ACA885;
+}
+
+#game button {
+    padding: 5px 5px 5px 5px;
+    margin: 2px 2px 2px 2px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+
+#to-find {
+    position: relative;
+    margin-left: 100px;
+}
+
+#search, #history {
+    border-radius: 4px;
+    border: 2px solid #2F4858;
+}
+
+#instrukcja {
+    position: fixed;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    text-align: center;
+    padding: 7px 20px 7px 20px;
+}
